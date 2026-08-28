@@ -1,0 +1,100 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: "id"
+
+collections:
+  - name: "berita"
+    label: "Berita & Kegiatan"
+    files:
+      - file: "content/berita.json"
+        label: "Daftar Berita & Kegiatan"
+        name: "berita"
+        fields:
+          - label: "Daftar"
+            name: "daftar"
+            widget: "list"
+            label_singular: "Berita/Kegiatan"
+            summary: "{{judul}} — {{tanggal}}"
+            fields:
+              - { label: "Tanggal", name: "tanggal", widget: "string" }
+              - { label: "Judul", name: "judul", widget: "string" }
+              - { label: "Ringkasan", name: "ringkasan", widget: "text" }
+              - { label: "Tampilkan sebagai unggulan (besar)", name: "unggulan", widget: "boolean", default: false }
+
+  - name: "sekolah"
+    label: "Sekolah Binaan"
+    files:
+      - file: "content/sekolah.json"
+        label: "Daftar Sekolah Binaan"
+        name: "sekolah"
+        fields:
+          - label: "Daftar"
+            name: "daftar"
+            widget: "list"
+            label_singular: "Sekolah"
+            summary: "{{nama}}"
+            fields:
+              - { label: "Kategori (contoh: SD / MI, SMP, TK / PAUD, Non Formal)", name: "tag", widget: "string" }
+              - { label: "Nama Sekolah", name: "nama", widget: "string" }
+              - { label: "Deskripsi singkat", name: "deskripsi", widget: "text" }
+
+  - name: "pengurus"
+    label: "Struktur Pengurus"
+    files:
+      - file: "content/pengurus.json"
+        label: "Daftar Pengurus"
+        name: "pengurus"
+        fields:
+          - label: "Anggota"
+            name: "anggota"
+            widget: "list"
+            label_singular: "Pengurus"
+            summary: "{{nama}} — {{jabatan}}"
+            fields:
+              - { label: "Inisial (1 huruf untuk avatar)", name: "inisial", widget: "string", required: false }
+              - { label: "Nama", name: "nama", widget: "string" }
+              - { label: "Jabatan", name: "jabatan", widget: "string" }
+
+  - name: "kontak"
+    label: "Kontak & Lokasi"
+    files:
+      - file: "content/kontak.json"
+        label: "Info Kontak"
+        name: "kontak"
+        fields:
+          - { label: "Alamat", name: "alamat", widget: "text" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Telepon / WhatsApp", name: "telepon", widget: "string" }
+          - { label: "Jam Layanan", name: "jam", widget: "string" }
+          - { label: "URL Embed Google Maps (opsional)", name: "peta_embed_url", widget: "string", required: false }
+
+  - name: "profil"
+    label: "Profil & Sejarah"
+    files:
+      - file: "content/site.json"
+        label: "Profil Organisasi"
+        name: "site"
+        fields:
+          - { label: "Jumlah tenaga pendidik (contoh: 85 guru)", name: "stat_guru", widget: "string" }
+          - { label: "Lama mengabdi (contoh: 40 tahun)", name: "stat_tahun", widget: "string" }
+          - { label: "Paragraf profil (tentang majelis)", name: "profil_1", widget: "text" }
+          - { label: "Visi", name: "visi", widget: "text" }
+          - label: "Misi"
+            name: "misi"
+            widget: "list"
+            label_singular: "Poin misi"
+            allow_add: true
+          - label: "Linimasa / Sejarah"
+            name: "timeline"
+            widget: "list"
+            label_singular: "Peristiwa"
+            summary: "{{tahun}} — {{judul}}"
+            fields:
+              - { label: "Tahun", name: "tahun", widget: "string" }
+              - { label: "Judul peristiwa", name: "judul", widget: "string" }
+              - { label: "Deskripsi", name: "deskripsi", widget: "text" }
