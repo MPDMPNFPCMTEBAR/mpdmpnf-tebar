@@ -1,0 +1,7 @@
+{
+  "daftar": [
+    { "tanggal": "[Tanggal]", "judul": "[Judul kegiatan utama]", "ringkasan": "Ringkasan singkat kegiatan atau berita utama yang ingin ditonjolkan di sini.", "unggulan": true },
+    { "tanggal": "[Tanggal]", "judul": "[Judul berita]", "ringkasan": "Ringkasan singkat berita kedua.", "unggulan": false },
+    { "tanggal": "[Tanggal]", "judul": "[Judul berita]", "ringkasan": "Ringkasan singkat berita ketiga.", "unggulan": false }
+  ]
+}
