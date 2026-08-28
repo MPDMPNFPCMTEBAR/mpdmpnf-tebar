@@ -1,0 +1,17 @@
+{
+  "stat_guru": "—",
+  "stat_tahun": "—",
+  "profil_1": "Majelis Pendidikan Dasar Menengah dan Pendidikan NonFormal Pimpinan Cabang Muhammadiyah Terbanggi Besar (MPDMPNF PCM TEBAR) adalah majelis di bawah Pimpinan Cabang Muhammadiyah Terbanggi Besar yang bertanggung jawab atas pembinaan pendidikan dasar, menengah, dan non-formal berbasis nilai-nilai Muhammadiyah di wilayah Terbanggi Besar, Lampung Tengah.",
+  "visi": "Terwujudnya Pendidikan Muhammadiyah Terbanggi Besar yang Unggul, Berkarakter Islam Berkemajuan, Berbasis Teknologi, dan Menjadi Pusat Keunggulan Kader Bangsa.",
+  "misi": [
+    "Penguatan Al-Islam dan Kemuhammadiyahan: menjadikan nilai-nilai Islam berkemajuan sebagai pondasi utama seluruh ekosistem dan iklim sekolah binaan.",
+    "Transformasi Mutu Kurikulum dan Pembelajaran: mengintegrasikan kurikulum nasional dengan kurikulum khas Muhammadiyah yang berorientasi pada literasi digital, sains, dan kewirausahaan.",
+    "Pembinaan dan Pemberdayaan Pendidik: menyelenggarakan kaderisasi guru dan tenaga kependidikan yang profesional, memiliki ideologi Muhammadiyah yang kokoh, serta adaptif terhadap perkembangan zaman.",
+    "Akselerasi Tata Kelola dan Keunggulan Sekolah: mendorong tata kelola sekolah binaan yang akuntabel, efisien, dan memiliki program unggulan (differentiator) yang berdaya saing di wilayah Lampung Tengah."
+  ],
+  "timeline": [
+    { "tahun": "19XX", "judul": "Berdirinya MPDMPNF PCM TEBAR", "deskripsi": "Ganti dengan tahun dan cerita berdirinya majelis pendidikan di cabang ini." },
+    { "tahun": "19XX", "judul": "Perluasan sekolah binaan", "deskripsi": "Tuliskan momen penting seperti pendirian sekolah baru atau perluasan wilayah binaan." },
+    { "tahun": "20XX", "judul": "Pencapaian terbaru", "deskripsi": "Tambahkan pencapaian, akreditasi, atau program unggulan terbaru." }
+  ]
+}
