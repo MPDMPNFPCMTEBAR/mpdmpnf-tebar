@@ -1,0 +1,10 @@
+{
+  "daftar": [
+    { "tag": "SD / MI", "nama": "SD Muhammadiyah Bandarjaya", "deskripsi": "Jl. Merdeka No.05 Bandarjaya Barat. [Tambahkan jumlah siswa atau keunggulan sekolah ini.]" },
+    { "tag": "SD / MI", "nama": "SD Aisyiyah Poncowati", "deskripsi": "Poncowati. [Tambahkan jumlah siswa atau keunggulan sekolah ini.]" },
+    { "tag": "SMP", "nama": "SMP Muhammadiyah Bandarjaya", "deskripsi": "Adijaya. [Tambahkan jumlah siswa atau keunggulan sekolah ini.]" },
+    { "tag": "SMP", "nama": "SMP MBS Poncowati", "deskripsi": "Jl. Endro Suratmin, Poncowati. [Tambahkan jumlah siswa atau keunggulan sekolah ini.]" },
+    { "tag": "SMA / SMK", "nama": "SMA MBS Poncowati", "deskripsi": "Jl. Endro Suratmin, Poncowati. [Tambahkan jumlah siswa atau keunggulan sekolah ini.]" },
+    { "tag": "SMA / SMK", "nama": "SMK Muhammadiyah Terbanggi Besar", "deskripsi": "Jl. Pingled, Yukum Jaya. [Tambahkan jumlah siswa atau keunggulan sekolah ini.]" }
+  ]
+}
